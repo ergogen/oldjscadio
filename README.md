@@ -1,5 +1,15 @@
 ## io
 
+**MrZealot fork notes**: copied this because MakerJS still outputs V1 JSCAD code, and this lib is perfect for STL conversion.
+Sadly, its dependencies are not only out of date, but `xmldom` actually triggers npm's audit system.
+Fortunately, tho, `xmldom` is only needed for formats I'm not interested in, so I'm forking this (and its dependent `@jscad/io` package) to remove the unnecessary formats, and fix `npm audit`.
+No other, functional change takes place.
+All credit to the original authors.
+
+<br>
+<br>
+
+
 ## input output formats handling for the jscad project
 
 [![npm version](https://badge.fury.io/js/%40jscad%2Fio.svg)](https://badge.fury.io/js/%40jscad%2Fio)

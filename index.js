@@ -1,13 +1,10 @@
 const {makeBlob} = require('@jscad/io-utils')
 
-const amfSerializer = require('@jscad/amf-serializer')
 const dxfSerializer = require('@jscad/dxf-serializer')
 const jsonSerializer = require('@jscad/json-serializer')
 const stlSerializer = require('@jscad/stl-serializer')
 const svgSerializer = require('@jscad/svg-serializer')
-const x3dSerializer = require('@jscad/x3d-serializer')
 
-const amfDeSerializer = require('@jscad/amf-deserializer')
 const gcodeDeSerializer = require('@jscad/gcode-deserializer')
 const jsonDeSerializer = require('@jscad/json-deserializer')
 const objDeSerializer = require('@jscad/obj-deserializer')
@@ -16,14 +13,11 @@ const svgDeSerializer = require('@jscad/svg-deserializer')
 
 module.exports = {
   makeBlob,
-  amfSerializer,
   dxfSerializer,
   jsonSerializer,
   stlSerializer,
   svgSerializer,
-  x3dSerializer,
 
-  amfDeSerializer,
   gcodeDeSerializer,
   jsonDeSerializer,
   objDeSerializer,

@@ -39,8 +39,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@jscad/amf-deserializer": "^0.0.4",
-    "@jscad/amf-serializer": "^0.0.5",
     "@jscad/dxf-serializer": "^0.0.4",
     "@jscad/gcode-deserializer": "^0.0.4",
     "@jscad/io-utils": "^0.1.2",
@@ -50,7 +48,6 @@
     "@jscad/stl-deserializer": "^0.1.2",
     "@jscad/stl-serializer": "^0.0.6",
     "@jscad/svg-deserializer": "^0.2.3",
-    "@jscad/svg-serializer": "^0.0.4",
-    "@jscad/x3d-serializer": "^0.0.6"
+    "@jscad/svg-serializer": "^0.0.4"
   }
 }
